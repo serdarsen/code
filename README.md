@@ -1,3 +1,5 @@
+<div align="center">
+
 ```
 .-------------------------------------.
 |                                     |
@@ -11,9 +13,11 @@
 |               (^_^)                 |
 |                                     |
 |   > EF Core Showcase                |
-|   > .NET 9 + PostgreSQL             |
+|   > .NET 10 + PostgreSQL            |
 |   > serdarsen/code                  |
 |                                     |
 |   $ _                               |
 '-------------------------------------'
 ```
+
+</div>
