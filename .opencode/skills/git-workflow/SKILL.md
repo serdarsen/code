@@ -28,6 +28,7 @@ Example: `feature/42-add-value-conversion-demo`
 ## Commit Convention
 - Follow the Conventional Commits specification: https://www.conventionalcommits.org/en/v1.0.0/
 - Use `<type>(<scope>): <description>` format where `type` is one of `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`.
+- Always use lowercase for the entire subject line (type, scope, and description).
 - Reference the GitHub issue number in the commit message footer with `Refs: #N`.
 - Include the EF Core concept changed in the description when relevant.
 
