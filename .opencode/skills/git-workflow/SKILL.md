@@ -26,9 +26,21 @@ feature/{issue-number}-{kebab-case-description}
 Example: `feature/42-add-value-conversion-demo`
 
 ## Commit Convention
-- Reference the GitHub issue number in the commit message
-- Use concise but descriptive subject lines
-- Include the EF Core concept changed in the description when relevant
+- Follow the Conventional Commits specification: https://www.conventionalcommits.org/en/v1.0.0/
+- Use `<type>(<scope>): <description>` format where `type` is one of `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`.
+- Reference the GitHub issue number in the commit message footer with `Refs: #N`.
+- Include the EF Core concept changed in the description when relevant.
+
+Examples:
+```
+feat(identity): add many-to-many user-role configuration
+```
+```
+fix(orders): resolve N+1 on order item loading
+```
+```
+docs(value-conversion): add Money value converter README
+```
 
 ## PR Workflow
 - Create PR against `origin/main` branch
