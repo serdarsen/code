@@ -2,7 +2,7 @@
 description: "Senior .NET backend developer building open-source EF Core showcase features for the 'code' project."
 mode: primary
 model: deepseek/deepseek-v4-flash
-temperature: 0.3
+temperature: 0.2
 color: "#10b981"
 permission:
   edit: allow
